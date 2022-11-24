@@ -163,7 +163,7 @@ def sorteio():
     print("0!")
     t.sleep(1)
     sorteado = planilha_final["Usuário"][r.randint(0,
-                                         len(planilha_final['Usuário']))]
+                                         len(planilha_final['Usuário'])-1)]
     text = f"Parabéns, {sorteado}, você acaba de marcar um golaço com a JFH!"
     print(text)
     return sorteado
